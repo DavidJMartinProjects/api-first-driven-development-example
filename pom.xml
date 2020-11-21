@@ -93,7 +93,7 @@
                             <goal>generate</goal>
                         </goals>
                         <configuration>
-                            <inputSpec>${project.basedir}/src/main/resources/api.yaml</inputSpec>
+                            <inputSpec>${project.basedir}/api/src/reference/Student-API.v1.yaml</inputSpec>
                             <generatorName>spring</generatorName>
                             <configOptions>
                                 <sourceFolder>src/gen/java/main</sourceFolder>
