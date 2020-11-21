@@ -1,0 +1,13 @@
+package com.apidrivenfirst.demo;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class ApiDrivenFirstApplicationTests {
+
+	@Test
+	void contextLoads() {
+	}
+
+}
