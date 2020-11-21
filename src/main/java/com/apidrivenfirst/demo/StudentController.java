@@ -13,4 +13,5 @@ public class StudentController implements StudentsApi {
 	public ResponseEntity<Student> getStudents() {
 		return new ResponseEntity<Student>(new Student().id(100).name("John Doe").age(30), HttpStatus.OK);
 	}
+	
 }
