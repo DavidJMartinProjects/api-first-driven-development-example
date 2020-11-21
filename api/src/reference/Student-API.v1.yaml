@@ -31,6 +31,7 @@ paths:
                   value: {}
       operationId: get-students
       description: returns a list of students
+      parameters: []
 components:
   schemas:
     Student:
